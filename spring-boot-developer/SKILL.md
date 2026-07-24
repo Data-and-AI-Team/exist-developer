@@ -12,3 +12,7 @@ https://github.com/rrezartprebreza/spring-boot-skills
 ## Requirements
 
 All APIs that return list-like results must accept pagination parameters and return paginated results using Spring Data's `Page<T>` interface. Do not return an unbounded `List<T>`, `Collection<T>`, array, or other bare collection from these endpoints. Prefer accepting Spring Data's `Pageable` to support page, size, and sort parameters.
+
+Use Liquibase for database schema migrations. Store schema changes in version-controlled Liquibase changelogs and let Spring Boot run them consistently across environments. Do not introduce Flyway.
+
+Name runnable Spring Boot application modules using the `<app-name>-app` format. Do not use `backend` as the module or artifact name.
