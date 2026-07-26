@@ -1,0 +1,83 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dksh-app
+  namespace: dksh
+  labels:
+    app.kubernetes.io/name: dksh-app
+    app.kubernetes.io/part-of: project-gems
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: dksh-app
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: dksh-app
+        app.kubernetes.io/part-of: project-gems
+    spec:
+      containers:
+        - name: dksh-app
+          image: ghcr.io/data-and-ai-team/dksh-app:v0.1.0
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: default
+            - name: LOGGING_LEVEL_COM_DKSH_GEMS_INGESTION
+              value: DEBUG
+          ports:
+            - name: http
+              containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /actuator/health
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /actuator/health
+              port: http
+            initialDelaySeconds: 30
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: 125m
+              memory: 512Mi
+            limits:
+              cpu: 500m
+              memory: 1Gi
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            runAsNonRoot: true
+            capabilities:
+              drop:
+                - ALL
+          volumeMounts:
+            - name: temporary-files
+              mountPath: /tmp
+      volumes:
+        - name: temporary-files
+          emptyDir: {}
+      imagePullSecrets:
+        - name: dksh-registry-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: dksh-app
+  namespace: dksh
+  labels:
+    app.kubernetes.io/name: dksh-app
+    app.kubernetes.io/part-of: project-gems
+spec:
+  selector:
+    app.kubernetes.io/name: dksh-app
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
