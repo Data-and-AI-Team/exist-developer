@@ -23,7 +23,7 @@ Use this skill primarily for translating business requirements into technical op
 
 ## Expected Deliverables
 
-For each engagement, produce decision-ready outputs:
+For each engagement, produce decision-ready Markdown outputs. Use Mermaid for diagrams:
 
 - Scope summary and requirement-to-capability mapping.
 - Architecture overview (context, major components, integration points, data flow).
@@ -31,6 +31,18 @@ For each engagement, produce decision-ready outputs:
 - Effort estimate breakdown by workstream (for example: backend, frontend, integrations, data, platform, QA, DevOps).
 - Assumptions, exclusions, dependency list, and risk register.
 - Delivery plan with milestones and a path from prototype/POC to production hardening.
+
+Use Mermaid code blocks for architecture, integration, data-flow, and delivery diagrams. Keep the surrounding explanation and decision records in Markdown tables and headings.
+
+## Workflow
+
+1. Read the available BRD, RFP, user stories, technical constraints, and existing-system documentation.
+2. Extract business outcomes, actors, capabilities, integrations, data concerns, non-functional requirements, and unresolved questions.
+3. Map requirements to solution capabilities and identify the smallest architecture that satisfies the stated constraints.
+4. Define two or more viable technology options where meaningful, compare tradeoffs, and recommend one based on explicit decision criteria.
+5. Estimate discovery, implementation, platform setup, non-functional requirements, testing, and delivery coordination separately using ranges and confidence levels.
+6. Record assumptions, exclusions, dependencies, risks, and open questions; identify timeboxed prototypes or discovery spikes for high-impact unknowns.
+7. Produce the Markdown deliverables and Mermaid diagrams, then check that every material requirement is covered by a capability, estimate, risk, assumption, or open question and that each diagram meets the architecture diagram standards below.
 
 ## Estimation Requirements
 
@@ -61,11 +73,28 @@ When proposing or implementing solution details, comply with inherited skills:
 - If Spring Boot is selected, use Spring Boot pagination conventions (`Page<T>` + pageable API parameters) for list-like APIs.
 - If Spring Boot is selected, use Liquibase for schema migrations.
 - If Angular is selected, follow module naming conventions (`<app-name>-ui`). If Spring Boot is selected, use `<app-name>-app`.
+- For any selected stack, list-like APIs must define bounded pagination parameters and a typed response that preserves pagination metadata. Use the framework-specific convention only after the backend stack is selected; for Spring Boot, use `Page<T>` and `Pageable`.
 - Follow Kubernetes secret handling requirements; keep only placeholders in source control and supply real secrets through approved secure channels.
 
 ## Conventions
 
 - Diagrams should be generated with Mermaid.js.
+
+## Architecture Diagram Standards
+
+- Produce decision-oriented, proposal-level diagrams rather than detailed implementation diagrams.
+- Split complex solutions into purpose-specific views, such as migration, transactional, integration, reporting/BI, security, and deployment. Include only views relevant to the engagement.
+- Group related capabilities into concise, high-level components. Do not enumerate every requirement or module inside a diagram.
+- Minimize text in each box; place detailed responsibilities in supporting notes or requirement mappings.
+- Accurately represent the proposed physical and logical topology at the level justified by the proposal. Do not invent environments, zones, clusters, replicas, or infrastructure details that are not supported by requirements, assumptions, or explicit recommendations.
+- Explicitly identify the authoritative system of record for each data domain and distinguish it from staging areas, file storage, caches, replicas, semantic models, and reporting stores.
+- Use database symbols only for actual persistent database services. Use distinct shapes or labelled boxes for applications, APIs, object storage, background processing, monitoring, and external systems.
+- Propose the smallest justified number of data stores. Never assume that one database, or a database per module, is universally appropriate.
+- Use restrained, accessible color coding consistently by architectural layer or component type. Ensure the diagram remains understandable in grayscale; colors must be secondary to labels, shapes, and line styles.
+- Include a legend only when colors, lines, or symbols are not self-explanatory.
+- Clearly distinguish documented requirements, assumptions, and recommended architecture choices. Do not imply that recommended technologies are client-mandated.
+- Keep data flows unambiguous, including migration loads, transactional writes, integration exchanges, and read-only reporting feeds.
+- Before finalizing each diagram, verify that every element and flow is supported by a documented requirement, stated assumption, or explicit recommendation, and that the diagram does not accidentally imply additional databases, environments, integrations, or infrastructure.
 
 ## Definition of Done (Presales)
 
