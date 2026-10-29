@@ -1,0 +1,95 @@
+{
+  "base_url": "https://kb.exist.com",
+  "space_key": "AI",
+  "pages": {
+    "contents/ai-initiative/00-home.md": {
+      "page_id": "236257366",
+      "title": "AI Initiatives",
+      "parent_page_id": null,
+      "version": 3,
+      "source_sha256": "805dfa247afe7d50d2f3013537b522419910c9de822cfd800c026a255d29038b",
+      "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257366"
+    },
+    "contents/ai-initiative/01-intake-and-risk.md": {
+      "page_id": "236257386",
+      "title": "AI Use-Case Intake and Risk Review",
+      "parent_page_id": "236257366",
+      "version": 3,
+      "source_sha256": "05b75841c447490aa7ecb15348718cb224f1faceec15e4be5dc1f0362be3a3c1",
+      "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257386"
+    },
+    "contents/ai-initiative/02-responsible-use-and-data.md": {
+      "page_id": "236257387",
+      "title": "Responsible AI Use and Data Protection",
+      "parent_page_id": "236257366",
+      "version": 3,
+      "source_sha256": "ded4ce6e901195466d8e18009e4c91bd7ffd56e687f1d7fc592ee01a6ed2675d",
+      "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257387"
+    },
+    "contents/ai-initiative/03-ai-assisted-engineering.md": {
+      "page_id": "236257388",
+      "title": "AI-Assisted Engineering",
+      "parent_page_id": "236257366",
+      "version": 3,
+      "source_sha256": "0bb2bde31915d80fc42f3fba644931372738408b6dcd0dba3172971a2052aee5",
+      "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257388"
+    },
+    "contents/ai-initiative/04-evaluation-and-assurance.md": {
+      "page_id": "236257389",
+      "title": "AI Evaluation and Assurance",
+      "parent_page_id": "236257366",
+      "version": 3,
+      "source_sha256": "0d5846a93e2e3b0a3ba626d0ba0cb6ba3bd24a16ef9a540017c21748fffe5b18",
+      "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257389"
+    },
+    "contents/ai-initiative/05-delivery-and-operations.md": {
+      "page_id": "236257390",
+      "title": "AI Delivery, Monitoring, and Incident Response",
+      "parent_page_id": "236257366",
+      "version": 3,
+      "source_sha256": "ceda460ea42f866c0e519e63784c40a77fe581f4c0bf8b713d57b879e2700a44",
+      "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257390"
+    },
+    "contents/ai-initiative/06-architecture-and-patterns.md": {
+      "page_id": "236257416",
+      "title": "AI Architecture and Integration Patterns",
+      "parent_page_id": "236257366",
+      "version": 2,
+      "source_sha256": "051d46480a77f0a735206348c740e3dc0dec22b4345333d175483bf941033b27",
+      "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257416"
+    },
+    "contents/ai-initiative/07-knowledge-and-retrieval.md": {
+      "page_id": "236257417",
+      "title": "Knowledge and Retrieval Management",
+      "parent_page_id": "236257366",
+      "version": 2,
+      "source_sha256": "1a587fbc922b9df838e98c17d20f1e2175dead3e1a82806441aa76b95c3b9916",
+      "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257417"
+    },
+    "contents/ai-initiative/08-prompt-and-agent-configuration.md": {
+      "page_id": "236257418",
+      "title": "Prompt and Agent Configuration Management",
+      "parent_page_id": "236257366",
+      "version": 2,
+      "source_sha256": "d39586b0a0e8e57d15c55fe5e06a913d3c75ed23caaafa917dd20babdedf5ca1",
+      "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257418"
+    },
+    "contents/ai-initiative/09-providers-and-cost.md": {
+      "page_id": "236257419",
+      "title": "AI Provider Selection and Cost Management",
+      "parent_page_id": "236257366",
+      "version": 2,
+      "source_sha256": "b49373f1f93d53f4f4d609630bc01edf6ce50d8707bf8bf769a22c83808f2e11",
+      "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257419"
+    },
+    "contents/ai-initiative/10-enablement-and-adoption.md": {
+      "page_id": "236257420",
+      "title": "AI Enablement and Adoption",
+      "parent_page_id": "236257366",
+      "version": 2,
+      "source_sha256": "e0942e8d110f5304aefaad0e8c154eeac148f7b1c6131e19343a7a03c0c02c04",
+      "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257420"
+    }
+  },
+  "verified_at": "2026-10-29T04:20:17.705629+00:00"
+}
