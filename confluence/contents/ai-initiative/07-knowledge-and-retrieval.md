@@ -1,9 +1,9 @@
 # Knowledge and Retrieval Management
 
-**Status:** Draft for review  
-**Proposed owner:** Knowledge/data owner / AI technical owner  
+**Status:** Approved
+**Owner:** Knowledge/data owner / AI technical owner
 **Review cadence:** Quarterly and when sources or access rules change  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Source inventory
 

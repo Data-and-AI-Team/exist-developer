@@ -1,9 +1,9 @@
 # Coding Standards and Secure Development
 
-**Status:** Draft for review  
-**Proposed owner:** Technical leads / security reviewer  
+**Status:** Approved
+**Owner:** Technical leads / security reviewer
 **Review cadence:** Quarterly and after major platform changes  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Baseline conventions
 

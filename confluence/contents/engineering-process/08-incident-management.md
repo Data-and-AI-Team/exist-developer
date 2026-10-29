@@ -1,9 +1,9 @@
 # Incident Management and Learning
 
-**Status:** Draft for review  
-**Proposed owner:** Operations owner / engineering leadership  
+**Status:** Approved
+**Owner:** Operations owner / engineering leadership
 **Review cadence:** Quarterly and after major incidents  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Purpose
 

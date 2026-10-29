@@ -1,9 +1,9 @@
 # Testing and Quality Assurance
 
-**Status:** Draft for review  
-**Proposed owner:** QA/test owner and technical lead  
+**Status:** Approved
+**Owner:** QA/test owner and technical lead
 **Review cadence:** Quarterly  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Test planning
 

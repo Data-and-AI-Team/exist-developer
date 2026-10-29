@@ -1,9 +1,9 @@
 # Monitoring and Operational Readiness
 
-**Status:** Draft for review  
-**Proposed owner:** Service owner / operations owner  
+**Status:** Approved
+**Owner:** Service owner / operations owner
 **Review cadence:** Quarterly and after significant incidents  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Operational readiness record
 

@@ -1,9 +1,9 @@
 # Prompt and Agent Configuration Management
 
-**Status:** Draft for review  
-**Proposed owner:** AI technical owner / technical leads  
+**Status:** Approved
+**Owner:** AI technical owner / technical leads
 **Review cadence:** Quarterly and with material behavior changes  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Configuration inventory
 

@@ -1,9 +1,9 @@
 # AI Initiative
 
-**Status:** Draft for review  
-**Proposed owner:** AI initiative sponsor / engineering leadership  
+**Status:** Approved
+**Owner:** AI initiative sponsor / engineering leadership
 **Review cadence:** Quarterly and after material AI capability changes  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Purpose and scope
 

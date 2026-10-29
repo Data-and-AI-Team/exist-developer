@@ -1,9 +1,9 @@
 # AI Enablement and Adoption
 
-**Status:** Draft for review  
-**Proposed owner:** Developer enablement owner / initiative sponsor  
+**Status:** Approved
+**Owner:** Developer enablement owner / initiative sponsor
 **Review cadence:** Quarterly and after major tool/policy changes  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Purpose
 

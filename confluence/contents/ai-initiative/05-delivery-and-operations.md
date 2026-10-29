@@ -1,9 +1,9 @@
 # AI Delivery, Monitoring, and Incident Response
 
-**Status:** Draft for review  
-**Proposed owner:** AI technical owner / operations owner  
+**Status:** Approved
+**Owner:** AI technical owner / operations owner
 **Review cadence:** Quarterly and after material incidents  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Release baseline
 

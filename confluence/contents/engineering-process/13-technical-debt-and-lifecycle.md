@@ -1,9 +1,9 @@
 # Technical Debt and Service Lifecycle Management
 
-**Status:** Draft for review  
-**Proposed owner:** Engineering leadership / service owners  
+**Status:** Approved
+**Owner:** Engineering leadership / service owners
 **Review cadence:** Quarterly and at service lifecycle transitions  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Purpose
 

@@ -1,9 +1,9 @@
 # AI Evaluation and Assurance
 
-**Status:** Draft for review  
-**Proposed owner:** Evaluation owner / technical owner  
+**Status:** Approved
+**Owner:** Evaluation owner / technical owner
 **Review cadence:** Before each material release and quarterly for operating use cases  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Evaluation design
 

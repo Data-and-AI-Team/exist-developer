@@ -6,114 +6,114 @@
       "page_id": "236257361",
       "title": "Engineering Procedures",
       "parent_page_id": null,
-      "version": 4,
-      "source_sha256": "772b0c33c2834ba0d2a5255611c4eaba7ad4f8b4d6dcfdb29c4541cc585c12f6",
+      "version": 5,
+      "source_sha256": "ff364b90162a8828143eec305d4c61d83ab5d806fcd97d56e608a1d2ae852c0e",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257361"
     },
     "contents/engineering-process/01-sdlc-and-change-management.md": {
       "page_id": "236257368",
       "title": "SDLC and Change Management",
       "parent_page_id": "236257361",
-      "version": 3,
-      "source_sha256": "8d70b5340f8f05ce00a1585895e3f38c8942716e951eee1502863a37c50c7931",
+      "version": 5,
+      "source_sha256": "fe1e8b9ed97953fcb83c008509cc56a897b589ce9e6a5f9af59bb1a6672e4e65",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257368"
     },
     "contents/engineering-process/02-pull-requests-and-code-review.md": {
       "page_id": "236257369",
       "title": "Pull Requests and Code Review",
       "parent_page_id": "236257361",
-      "version": 3,
-      "source_sha256": "4d94053cbfa9f2dd00e17552a738d57ea2c937f8148b111c146377a65a8c8169",
+      "version": 5,
+      "source_sha256": "7e771d1203c9697e9d0e43243a231a1216f79a23f564e67954cde19522550c0c",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257369"
     },
     "contents/engineering-process/03-coding-standards.md": {
       "page_id": "236257370",
       "title": "Coding Standards and Secure Development",
       "parent_page_id": "236257361",
-      "version": 3,
-      "source_sha256": "fe00221cf3f342c5ce3ba88a8cfb863d0546b09a538933d1a3f71e54bd049670",
+      "version": 5,
+      "source_sha256": "1b6bdef04e9598d0c4b0692b4095d1fd1d19d1ea8a191f54de8119f0c2f0ef97",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257370"
     },
     "contents/engineering-process/04-infrastructure-and-configuration.md": {
       "page_id": "236257371",
       "title": "Infrastructure and Configuration Management",
       "parent_page_id": "236257361",
-      "version": 3,
-      "source_sha256": "5d97c1f7fc2e0a99fa22a13912a1f7b184e510ddf669a20ffdc8f1a7876b97f6",
+      "version": 5,
+      "source_sha256": "14455210bccd50119532a2f18f4c512a7196f39f106ddc7251ec3a295f1a9e47",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257371"
     },
     "contents/engineering-process/05-testing-and-quality.md": {
       "page_id": "236257372",
       "title": "Testing and Quality Assurance",
       "parent_page_id": "236257361",
-      "version": 3,
-      "source_sha256": "9b81a1b5645615904a3c926e6a72a16043e5dfcb54b910a8a88c41964c6081b5",
+      "version": 5,
+      "source_sha256": "a701abbc409095f3328a652e441ec64a0dd1594a7910245bdaf090edeb9982eb",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257372"
     },
     "contents/engineering-process/06-release-and-recovery.md": {
       "page_id": "236257373",
       "title": "Release, Deployment, and Recovery",
       "parent_page_id": "236257361",
-      "version": 3,
-      "source_sha256": "7eaa77a20b226b5cf6dee6c3971774ce3b468b1a3415db0cc8fd960be4bf1bef",
+      "version": 5,
+      "source_sha256": "5eb7b856e46be9a6aa4ef02bbe08dbd69a281bc369ce28751bce116613f67994",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257373"
     },
     "contents/engineering-process/07-monitoring-and-operations.md": {
       "page_id": "236257374",
       "title": "Monitoring and Operational Readiness",
       "parent_page_id": "236257361",
-      "version": 3,
-      "source_sha256": "be416a4d7ea841fc394c7d1e68be839f693de18e893696ae318eeabb8006de5b",
+      "version": 5,
+      "source_sha256": "962303106818a512c0219c7ebcbe182f71df001be9c1a857b1904fe00a61a57d",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257374"
     },
     "contents/engineering-process/08-incident-management.md": {
       "page_id": "236257375",
       "title": "Incident Management and Learning",
       "parent_page_id": "236257361",
-      "version": 3,
-      "source_sha256": "67e9b03d31e2360e8d553deffa5dedc143d6b25c4594d09bc17ee7920abb5a15",
+      "version": 5,
+      "source_sha256": "e0909c4cc0fa1ac2018a5db0d6476a8de3a729e07be9fed22f7593cb228305f9",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257375"
     },
     "contents/engineering-process/09-architecture-and-design.md": {
       "page_id": "236257397",
       "title": "Architecture and Technical Design Reviews",
       "parent_page_id": "236257361",
-      "version": 2,
-      "source_sha256": "178fead1ca62865d7e063a9e87c074a2b9859d4946147ee6da2eb5706616f29a",
+      "version": 4,
+      "source_sha256": "e23aede8d8984844172efe6de2004b6d7792c3273bc53772c039610bdb46c113",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257397"
     },
     "contents/engineering-process/10-vulnerability-and-patching.md": {
       "page_id": "236257398",
       "title": "Vulnerability and Patch Management",
       "parent_page_id": "236257361",
-      "version": 2,
-      "source_sha256": "f5d323cd257cb9a9395a7cc53ec916770aadd4a4fd9a5461c818aa2de8eda93e",
+      "version": 4,
+      "source_sha256": "75f949a6e35f95881fcb6349f48bd8fff2e77b655858b4d98cb5e3bfe72ed343",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257398"
     },
     "contents/engineering-process/11-identity-and-access.md": {
       "page_id": "236257399",
       "title": "Identity and Access Management",
       "parent_page_id": "236257361",
-      "version": 2,
-      "source_sha256": "c500db98c6cf9928e01593165a170edf719048ffa0a38107495ceefd60bf57b4",
+      "version": 4,
+      "source_sha256": "144f956744b2c2671d71fff9d748490f7880faca99290cc4eda2ae39bb0601e7",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257399"
     },
     "contents/engineering-process/12-api-and-integrations.md": {
       "page_id": "236257400",
       "title": "API and Integration Standards",
       "parent_page_id": "236257361",
-      "version": 2,
-      "source_sha256": "1add26362b9acac4f7e0e1a5c0f8b3513081749168ccb04c98915bb8f1c244a5",
+      "version": 4,
+      "source_sha256": "83a3996c9cc6d82f586fcf509f41d43afaab4cad6cc1563c035884fdec86e585",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257400"
     },
     "contents/engineering-process/13-technical-debt-and-lifecycle.md": {
       "page_id": "236257401",
       "title": "Technical Debt and Service Lifecycle Management",
       "parent_page_id": "236257361",
-      "version": 2,
-      "source_sha256": "4a4e792a4c41c40ab333075c6761e4b5850510c2a0cc874453f9ab8db9a79a15",
+      "version": 4,
+      "source_sha256": "6a70f8af94d79ac304b3bd444d9dc4bc38351b54dd9822be47ab2a65b8f1204b",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257401"
     }
   },
-  "verified_at": "2026-10-29T04:20:11.068838+00:00"
+  "verified_at": "2026-10-29T04:44:40.588060+00:00"
 }

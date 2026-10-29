@@ -1,9 +1,9 @@
 # Infrastructure and Configuration Management
 
-**Status:** Draft for review  
-**Proposed owner:** Platform/operations owner  
+**Status:** Approved
+**Owner:** Platform/operations owner
 **Review cadence:** Quarterly  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Scope
 

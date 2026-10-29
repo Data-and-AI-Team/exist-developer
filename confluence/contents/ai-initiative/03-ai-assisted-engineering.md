@@ -1,9 +1,9 @@
 # AI-Assisted Engineering
 
-**Status:** Draft for review  
-**Proposed owner:** Technical leads / developer enablement owner  
+**Status:** Approved
+**Owner:** Technical leads / developer enablement owner
 **Review cadence:** Quarterly  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Purpose
 

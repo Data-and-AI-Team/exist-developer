@@ -1,9 +1,9 @@
 # Responsible AI Use and Data Protection
 
-**Status:** Draft for review  
-**Proposed owner:** Data owner / security and privacy reviewers  
+**Status:** Approved
+**Owner:** Data owner / security and privacy reviewers
 **Review cadence:** Quarterly and when supplier terms change  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Permitted-use baseline
 

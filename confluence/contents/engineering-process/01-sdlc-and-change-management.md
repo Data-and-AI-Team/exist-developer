@@ -1,9 +1,9 @@
 # SDLC and Change Management
 
-**Status:** Draft for review  
-**Proposed owner:** Engineering leadership / delivery owner  
+**Status:** Approved
+**Owner:** Engineering leadership / delivery owner
 **Review cadence:** Quarterly  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Purpose and scope
 

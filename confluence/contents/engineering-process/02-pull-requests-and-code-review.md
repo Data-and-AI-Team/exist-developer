@@ -1,9 +1,9 @@
 # Pull Requests and Code Review
 
-**Status:** Draft for review  
-**Proposed owner:** Technical leads  
+**Status:** Approved
+**Owner:** Technical leads
 **Review cadence:** Quarterly  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Purpose
 

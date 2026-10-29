@@ -1,9 +1,9 @@
 # Identity and Access Management
 
-**Status:** Draft for review  
-**Proposed owner:** Identity/platform owner / system owners  
+**Status:** Approved
+**Owner:** Identity/platform owner / system owners
 **Review cadence:** Quarterly and after material access changes  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Access principles
 

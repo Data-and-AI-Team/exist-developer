@@ -1,9 +1,9 @@
 # API and Integration Standards
 
-**Status:** Draft for review  
-**Proposed owner:** API/service owners / technical leads  
+**Status:** Approved
+**Owner:** API/service owners / technical leads
 **Review cadence:** Quarterly and after major interface changes  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Contract baseline
 

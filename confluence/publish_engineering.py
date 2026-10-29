@@ -1,4 +1,4 @@
-"""Publish engineering or AI drafts; requires requests, PyYAML, Markdown."""
+"""Publish engineering or AI procedures; requires requests, PyYAML, Markdown."""
 
 import argparse
 from datetime import datetime, timezone
@@ -35,7 +35,7 @@ def main():
     def api(method, path, **kwargs):
         response = session.request(method, BASE + path, timeout=60, **kwargs)
         response.raise_for_status()
-        return response.json()
+        return response.json() if response.content else None
 
     space = api("GET", f"/rest/api/space/{SPACE}?expand=homepage")
     home_id = space["homepage"]["id"]
@@ -98,6 +98,11 @@ def main():
     for index, (source, title, body) in enumerate(pages):
         key = str(source.relative_to(ROOT))
         record = manifest["pages"][key]
+        status = re.search(r"^\*\*Status:\*\* (Approved|Draft for review)\s*$", body, re.MULTILINE)
+        if status is None:
+            raise RuntimeError(f"Missing or unsupported lifecycle status: {source.name}")
+        lifecycle = "approved" if status.group(1) == "Approved" else "draft"
+        stale_lifecycle = "draft" if lifecycle == "approved" else "approved"
 
         def link(match):
             label, target = match.groups()
@@ -121,7 +126,7 @@ def main():
             payload = {
                 "id": record["page_id"], "type": "page",
                 "title": home["title"] if index == 0 else title,
-                "version": {"number": record["version"] + 1, "message": f"Publish {content_directory} draft"},
+                "version": {"number": record["version"] + 1, "message": f"Publish {content_directory} {lifecycle} procedures"},
                 "body": {"storage": {"value": html, "representation": "storage"}},
             }
             if index:
@@ -131,15 +136,20 @@ def main():
             save()
         api("POST", f"/rest/api/content/{record['page_id']}/label", json=[
             {"prefix": "global", "name": content_directory},
-            {"prefix": "global", "name": "draft"},
+            {"prefix": "global", "name": lifecycle},
         ])
+        labels = api("GET", f"/rest/api/content/{record['page_id']}/label?limit=1000")
+        if stale_lifecycle in {label["name"] for label in labels["results"]}:
+            api("DELETE", f"/rest/api/content/{record['page_id']}/label?name={stale_lifecycle}")
         verified = api("GET", f"/rest/api/content/{record['page_id']}?expand=body.storage,ancestors,space,version,metadata.labels")
         value = verified["body"]["storage"]["value"]
-        assert "Draft for review" in value
+        assert f"<strong>Status:</strong> {status.group(1)}" in value
         assert ".md)" not in value and 'href="0' not in value
         assert verified["space"]["key"] == SPACE
         assert verified["version"]["number"] == record["version"]
-        assert {"draft", content_directory}.issubset({label["name"] for label in verified["metadata"]["labels"]["results"]})
+        verified_labels = {label["name"] for label in verified["metadata"]["labels"]["results"]}
+        assert {lifecycle, content_directory}.issubset(verified_labels)
+        assert stale_lifecycle not in verified_labels
         if index:
             assert verified["ancestors"][-1]["id"] == home_id
         else:

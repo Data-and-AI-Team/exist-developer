@@ -1,9 +1,9 @@
 # Release, Deployment, and Recovery
 
-**Status:** Draft for review  
-**Proposed owner:** Release owner / operations owner  
+**Status:** Approved
+**Owner:** Release owner / operations owner
 **Review cadence:** Quarterly and after failed deployments  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Release readiness
 

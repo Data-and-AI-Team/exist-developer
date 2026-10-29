@@ -1,9 +1,9 @@
 # AI Use-Case Intake and Risk Review
 
-**Status:** Draft for review  
-**Proposed owner:** Initiative sponsor / use-case owner  
+**Status:** Approved
+**Owner:** Initiative sponsor / use-case owner
 **Review cadence:** Quarterly and when use or data materially changes  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Intake record
 

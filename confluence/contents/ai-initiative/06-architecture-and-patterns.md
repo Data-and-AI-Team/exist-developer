@@ -1,9 +1,9 @@
 # AI Architecture and Integration Patterns
 
-**Status:** Draft for review  
-**Proposed owner:** AI technical owner / architecture lead  
+**Status:** Approved
+**Owner:** AI technical owner / architecture lead
 **Review cadence:** Quarterly and when solution boundaries change  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Pattern selection
 

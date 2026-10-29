@@ -1,9 +1,9 @@
 # Engineering Process
 
-**Status:** Draft for review  
-**Proposed owner:** Engineering leadership  
+**Status:** Approved
+**Owner:** Engineering leadership
 **Review cadence:** Quarterly and after material process changes  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Purpose
 

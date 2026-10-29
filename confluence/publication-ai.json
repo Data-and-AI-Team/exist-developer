@@ -6,90 +6,90 @@
       "page_id": "236257366",
       "title": "AI Initiatives",
       "parent_page_id": null,
-      "version": 3,
-      "source_sha256": "805dfa247afe7d50d2f3013537b522419910c9de822cfd800c026a255d29038b",
+      "version": 4,
+      "source_sha256": "11fb321b0e3f84463d06a6d70df35f5a251866a29f66da517b3c3cac9876415f",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257366"
     },
     "contents/ai-initiative/01-intake-and-risk.md": {
       "page_id": "236257386",
       "title": "AI Use-Case Intake and Risk Review",
       "parent_page_id": "236257366",
-      "version": 3,
-      "source_sha256": "05b75841c447490aa7ecb15348718cb224f1faceec15e4be5dc1f0362be3a3c1",
+      "version": 5,
+      "source_sha256": "55fa7c6a2233f5cc086f2a11b2535dbd70fbdab5ee2830ec7ed15387a5914c31",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257386"
     },
     "contents/ai-initiative/02-responsible-use-and-data.md": {
       "page_id": "236257387",
       "title": "Responsible AI Use and Data Protection",
       "parent_page_id": "236257366",
-      "version": 3,
-      "source_sha256": "ded4ce6e901195466d8e18009e4c91bd7ffd56e687f1d7fc592ee01a6ed2675d",
+      "version": 5,
+      "source_sha256": "18408db60126912b25d5e06ab6d6c072ceb6d5aa0079af163e1bfad92cb8b647",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257387"
     },
     "contents/ai-initiative/03-ai-assisted-engineering.md": {
       "page_id": "236257388",
       "title": "AI-Assisted Engineering",
       "parent_page_id": "236257366",
-      "version": 3,
-      "source_sha256": "0bb2bde31915d80fc42f3fba644931372738408b6dcd0dba3172971a2052aee5",
+      "version": 5,
+      "source_sha256": "578ac0f61b5654f7a18fb5d366e76d879ecfc811e051d031daef1d0f139f5368",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257388"
     },
     "contents/ai-initiative/04-evaluation-and-assurance.md": {
       "page_id": "236257389",
       "title": "AI Evaluation and Assurance",
       "parent_page_id": "236257366",
-      "version": 3,
-      "source_sha256": "0d5846a93e2e3b0a3ba626d0ba0cb6ba3bd24a16ef9a540017c21748fffe5b18",
+      "version": 5,
+      "source_sha256": "be9d2913770296201257cddf28a7ff97d9e1f87254363c7994265234376b322f",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257389"
     },
     "contents/ai-initiative/05-delivery-and-operations.md": {
       "page_id": "236257390",
       "title": "AI Delivery, Monitoring, and Incident Response",
       "parent_page_id": "236257366",
-      "version": 3,
-      "source_sha256": "ceda460ea42f866c0e519e63784c40a77fe581f4c0bf8b713d57b879e2700a44",
+      "version": 5,
+      "source_sha256": "226530a1494211242297a47e270aae57a7f880887f70a718df07793d301aced9",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257390"
     },
     "contents/ai-initiative/06-architecture-and-patterns.md": {
       "page_id": "236257416",
       "title": "AI Architecture and Integration Patterns",
       "parent_page_id": "236257366",
-      "version": 2,
-      "source_sha256": "051d46480a77f0a735206348c740e3dc0dec22b4345333d175483bf941033b27",
+      "version": 4,
+      "source_sha256": "33cbe619cee4d59348eaa5cfba71009e30cba80f511b731b074ad030d00517dc",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257416"
     },
     "contents/ai-initiative/07-knowledge-and-retrieval.md": {
       "page_id": "236257417",
       "title": "Knowledge and Retrieval Management",
       "parent_page_id": "236257366",
-      "version": 2,
-      "source_sha256": "1a587fbc922b9df838e98c17d20f1e2175dead3e1a82806441aa76b95c3b9916",
+      "version": 4,
+      "source_sha256": "0d1cc39faee8fc2ba621fdc79a7305e818f98ba445abbaf308d836d79bb3c67d",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257417"
     },
     "contents/ai-initiative/08-prompt-and-agent-configuration.md": {
       "page_id": "236257418",
       "title": "Prompt and Agent Configuration Management",
       "parent_page_id": "236257366",
-      "version": 2,
-      "source_sha256": "d39586b0a0e8e57d15c55fe5e06a913d3c75ed23caaafa917dd20babdedf5ca1",
+      "version": 4,
+      "source_sha256": "6f9c6b9184f1b1579029f8b9da0b7e42a39a7a324a86b9b7af6454b97a9c1e4e",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257418"
     },
     "contents/ai-initiative/09-providers-and-cost.md": {
       "page_id": "236257419",
       "title": "AI Provider Selection and Cost Management",
       "parent_page_id": "236257366",
-      "version": 2,
-      "source_sha256": "b49373f1f93d53f4f4d609630bc01edf6ce50d8707bf8bf769a22c83808f2e11",
+      "version": 4,
+      "source_sha256": "4cc0a7a724b98e12af4bff5c6754762103e823e9b62aee7ac76edbc47baf49a7",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257419"
     },
     "contents/ai-initiative/10-enablement-and-adoption.md": {
       "page_id": "236257420",
       "title": "AI Enablement and Adoption",
       "parent_page_id": "236257366",
-      "version": 2,
-      "source_sha256": "e0942e8d110f5304aefaad0e8c154eeac148f7b1c6131e19343a7a03c0c02c04",
+      "version": 4,
+      "source_sha256": "def5d23d76751f64bf60c74c269e4313194bd94c196b617e19bd2a681d33a29b",
       "url": "https://kb.exist.com/pages/viewpage.action?pageId=236257420"
     }
   },
-  "verified_at": "2026-10-29T04:20:17.705629+00:00"
+  "verified_at": "2026-10-29T04:44:46.224054+00:00"
 }

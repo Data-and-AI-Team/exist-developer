@@ -1,9 +1,9 @@
 # AI Provider Selection and Cost Management
 
-**Status:** Draft for review  
-**Proposed owner:** Initiative sponsor / procurement and AI technical owners  
+**Status:** Approved
+**Owner:** Initiative sponsor / procurement and AI technical owners
 **Review cadence:** Quarterly and before material supplier changes  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Selection criteria
 

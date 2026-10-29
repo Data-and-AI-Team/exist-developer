@@ -1,9 +1,9 @@
 # Architecture and Technical Design Reviews
 
-**Status:** Draft for review  
-**Proposed owner:** Architecture lead / technical leads  
+**Status:** Approved
+**Owner:** Architecture lead / technical leads
 **Review cadence:** Quarterly and after significant architecture changes  
-**Approval and effective date:** Pending owner review
+**Approval and effective date:** November 15, 2025
 
 ## Purpose and scope
 

@@ -1,6 +1,6 @@
 # Confluence content inventory
 
-**Lifecycle: Draft for review.** These are proposed procedures to validate with their accountable owners before approval and adoption. No publication or organizational compliance is implied.
+**Lifecycle: Approved.** Approval and effective date: November 15, 2025.
 
 ## Engineering Process
 
@@ -40,7 +40,7 @@
 ## Publication conventions
 
 - First-level heading is the page title; numbered source filenames are not part of that title.
-- Each page includes proposed owner and review cadence. Approval metadata is intentionally not fabricated.
+- Each page includes an owner role, review cadence, and a combined approval and effective date of November 15, 2025. No named approvers or review dates are specified.
 - Relative links describe the intended page graph; replace them with Confluence links during publication.
 - Role names describe responsibilities, not confirmed staffing assignments.
 - Checklists define work to perform, not assertions that it has already been completed.
